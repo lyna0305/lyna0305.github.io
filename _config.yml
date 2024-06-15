@@ -1,9 +1,9 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Yuna Lee # your name (or website title) here
+logo: "/images/profile_pic.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Hello👋 This is Yuna! Welcome to my Data Science Portfolio. 
   <br><br>
-  Second description 
+  Second description. 
   <br><br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
@@ -11,3 +11,13 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3GGXJVWG8W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3GGXJVWG8W');
+</script>
